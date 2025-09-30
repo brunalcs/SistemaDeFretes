@@ -26,13 +26,14 @@ public class ServicoDeEntrega {
     	itensEntrega.clear();
     }
     
+    //para controle dos dados
     public void exibirDetalhes(double distanciaEmKm) {
         System.out.println("Itens da entrega:");
         for (Fretavel item : itensEntrega) {
             System.out.println(" - " + item.toString() + 
                                " | Custo: R$ " + item.calcularCustoFrete(distanciaEmKm));
         }
-        System.out.println("Total: R$ " + calcularCustoTotal(distanciaEmKm));
+        //System.out.println("Total: R$ " + calcularCustoTotal(distanciaEmKm));
     }
 
 }

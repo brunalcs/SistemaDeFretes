@@ -10,10 +10,11 @@ public class main {
 		servico.adicionarItem(funcionario);
 		servico.adicionarItem(carro);
 		
+		System.out.println("\n=== Primeira Entrega ===");
+		servico.exibirDetalhes(10);
+		
 		double total1 = servico.calcularCustoTotal(10);
 		System.out.println("Custo total da primeira entrega: R$ " + total1);
-		
-		servico.exibirDetalhes(10);
 		
 		servico.limpar();
 		
@@ -23,9 +24,12 @@ public class main {
 		servico.adicionarItem(autonomo);
 		servico.adicionarItem(motocicleta);
 		
+		System.out.println("\n=== Segunda Entrega ===");
+		servico.exibirDetalhes(25);
+		
 		double total2 = servico.calcularCustoTotal(25);
 		System.out.println("Custo total da segunda entrega: R$ " + total2);
 		
-		servico.exibirDetalhes(25);
+		
 	}
 }
