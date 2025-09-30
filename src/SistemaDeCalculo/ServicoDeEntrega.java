@@ -33,7 +33,7 @@ public class ServicoDeEntrega {
             System.out.println(" - " + item.toString() + 
                                " | Custo: R$ " + item.calcularCustoFrete(distanciaEmKm));
         }
-        //System.out.println("Total: R$ " + calcularCustoTotal(distanciaEmKm));
+        
     }
 
 }
