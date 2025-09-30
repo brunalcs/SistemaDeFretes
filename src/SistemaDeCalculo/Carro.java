@@ -10,4 +10,10 @@ public class Carro extends Veiculo implements Fretavel{
 	public double calcularCustoFrete(double distanciaEmKm) {
 		return distanciaEmKm*1.25; 
 	}
+	
+	@Override
+	public String toString() {
+	    return "Carro - Placa: " + getPlaca() + " (Ano " + getAno() + ")";
+	}
+
 }

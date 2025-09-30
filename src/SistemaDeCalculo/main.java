@@ -13,6 +13,7 @@ public class main {
 		double total1 = servico.calcularCustoTotal(10);
 		System.out.println("Custo total da primeira entrega: R$ " + total1);
 		
+		servico.exibirDetalhes(10);
 		
 		servico.limpar();
 		
@@ -24,5 +25,7 @@ public class main {
 		
 		double total2 = servico.calcularCustoTotal(25);
 		System.out.println("Custo total da segunda entrega: R$ " + total2);
+		
+		servico.exibirDetalhes(25);
 	}
 }

@@ -8,4 +8,12 @@ public abstract class Veiculo {
 		this.placa=placa;
 		this.ano=ano;
 	}
+	
+	public String getPlaca() {
+		return placa;
+	}
+	
+	public int getAno() {
+		return ano;
+	}
 }
